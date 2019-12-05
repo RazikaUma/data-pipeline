@@ -1,0 +1,33 @@
+https 2019-11-18T09:30:04.413268Z 10.0.1.252:25088 10.94.12.15:443 0.001 0.009
+0.000 401 401 383 540 "POST
+https://demo-url.com/users=test@gmail.com HTTP/1.1"
+"unirest-java/1.3.11" ECDHE-RSA-AES128-GCM-SHA256 TLSv1.2
+arn:aws:asdfewc:asdfw:targetgroup/asdfwfec/sadfewcwea
+"Root=1-5dd2649c-ffc3578acf4b8c7a6987f3ca" "demo-url.com"   0
+2019-11-18T09:30:04.403000Z "waf,forward" "-" "-" "10.94.12.15:443" "401"
+
+https 2019-11-18T09:30:04.413268Z app/my-loadbalancer/50dc6c495c0c9188 10.0.1.252:25088 10.94.12.15:443 0.001 0.009
+0.000 401 401 383 540 "GET https://demo-url.com/users/testname14 HTTP/1.1"
+"unirest-java/1.3.11" ECDHE-RSA-AES128-GCM-SHA256 TLSv1.2
+arn:aws:asdfewc:asdfw:targetgroup/asdfwfec/sadfewcwea
+"Root=1-5dd2649c-ffc3578acf4b8c7a6987f3ca" "demo-url.com"   0
+2019-11-18T09:30:04.403000Z "waf,forward" "-" "-" "10.94.12.15:443" "204"
+
+http 2018-11-30T22:23:00.186641Z app/my-loadbalancer/50dc6c495c0c9188
+192.168.131.39:2817 - 0.000 0.001 0.000 200 200 34 366
+"GET http://www.example.com:80/?lastName=Joe HTTP/1.1" "curl/7.46.0" - -
+arn:aws:elasticloadbalancing:us-east-2:123456789012:targetgroup/my-targets/73e2d6
+bc24d8a067
+"Root=1-58337364-23a8c76965a2ef7629b185e3" "-" "-"
+0 2018-11-30T22:22:48.364000Z "forward" "-" "-" "10.94.12.15:443" "204"
+
+https 2019-11-18T09:30:04.413268Z app/my-loadbalancer/50dc6c495c0c9188 10.0.1.252:25088 10.94.12.15:443 0.001 0.009
+0.000 401 401 383 540 "GET https://demo-url.com/users/testuser144?FirstName=userName HTTP/1.1"
+"unirest-java/1.3.11" ECDHE-RSA-AES128-GCM-SHA256 TLSv1.2
+arn:aws:asdfewc:asdfw:targetgroup/asdfwfec/sadfewcwea
+"Root=1-5dd2649c-ffc3578acf4b8c7a6987f3ca" "demo-url.com"   0
+2019-11-18T09:30:04.403000Z "waf,forward" "-" "-" "10.94.12.15:443" "204"
+
+https 2019-11-18T09:30:04.413268Z app/my-loadbalancer/50dc6c495c0c9188 10.0.1.252:25088 10.94.12.15:443 0.001 0.009
+0.000 401 401 383 540 "GET https://demo-url.com/users/testuser144?FirstName=userName HTTP/1.1"
+"unirest-java/1.3.11" ECDHE-RSA-AES128-GCM-SHA256 TLSv1.2
