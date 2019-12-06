@@ -24,14 +24,18 @@ app.py --
 # Installation
 To get this repo running:
 
-  Install Python 3. You can find instructions here.
+  Install Python 3.
+  
   Create a virtual environment.
+  
   Clone this repo 
+  
   Install the package- pip install data-anonymizer-mapper
 
 # Usage
-Execute the app.py script
-You should see output from app.py.
+   Execute the app.py script
+   
+   You should see output from app.py.
 
 
 
