@@ -4,17 +4,19 @@ The Repo contains the code for Simple Data pipeline which converts AWS ELB logs 
 util.py -- 
      anonymize the URL(name,email,username,password) 
      parse the log lines into json format
+     
+     
 app.py -- 
     picks up input log file and write the output file
 
 # ELB log format :
-    https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html#access-log-entry-syntax
+   https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html#access-log-entry-syntax
 
 # Sample input : 
-    https://github.com/RazikaUma/data-pipeline/blob/master/elb_log_file.txt
+   https://github.com/RazikaUma/data-pipeline/blob/master/elb_log_file.txt
 
 # Sample output : 
-    https://github.com/RazikaUma/data-pipeline/blob/master/anonymized_data.txt
+   https://github.com/RazikaUma/data-pipeline/blob/master/anonymized_data.txt
 
 # Design : 
      https://github.com/RazikaUma/data-pipeline/blob/master/design.png
