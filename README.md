@@ -19,9 +19,9 @@ app.py --
    https://github.com/RazikaUma/data-pipeline/blob/master/anonymized_data.txt
 
 # Design : 
-     https://github.com/RazikaUma/data-pipeline/blob/master/design.png
+   https://github.com/RazikaUma/data-pipeline/blob/master/design.png
 
-Installation
+# Installation
 To get this repo running:
 
   Install Python 3. You can find instructions here.
@@ -29,7 +29,7 @@ To get this repo running:
   Clone this repo 
   Install the package- pip install data-anonymizer-mapper
 
-Usage
+# Usage
 Execute the app.py script
 You should see output from app.py.
 
